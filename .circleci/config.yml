@@ -23,7 +23,7 @@ jobs:
 
       - run:
           name: Copy CodeIgniter Application
-          command: cp -r path/to/codeigniter /tmp/codeigniter
+          command: cp -r . /tmp/codeigniter
 
       - run:
           name: Deploy CodeIgniter Application
